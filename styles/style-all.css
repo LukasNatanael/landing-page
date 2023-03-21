@@ -14,6 +14,7 @@ body {
     font-family: 'poppinsregular';
     margin: auto;
     max-width: 1900px;
+    min-width: 500px;
     padding: 0.7em;
 }
 
@@ -107,11 +108,5 @@ header > nav {
         width: 50%;
     }
 
-    .container-image {
-        width: 8%;
-        /* margin: auto; */
-        align-self: center;
-
-    }
 
 }

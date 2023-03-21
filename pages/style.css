@@ -4,6 +4,7 @@
     --roxo: #9B06CE;
 }
 
+
 main {
     display: flex;
     column-gap: 5em;
@@ -50,22 +51,28 @@ p {
     margin-bottom: 1.2em;
 }
 
+.span {
+    margin-bottom: 1.2em;
+}
 span {
     display: flex;
-    margin-bottom: 1em;
-    font-size: .8em;
-    column-gap: 2em;
+    font-size: 0.9em;
+    /* column-gap: 2em; */
     justify-content: space-between;
+    align-items: center;
 }
 
 span > a {
     color: #232323;
 }
 
-#l-lembrar {
+
+span > label {
     display: flex;
     align-items: center;
     cursor: pointer;
+    flex-direction: row;
+    /* background-color: red; */
 }
 
 span > a:hover {
@@ -96,4 +103,39 @@ span > a:hover {
 .form > input[type=button]:hover {
 
     background-color: #8708b1;
+}
+
+@media screen and (max-width:768px) {
+    main {
+        flex-direction: column-reverse;
+        column-gap: 0;
+    }
+
+    
+    .form {
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form input {
+        width: 150%;
+    }
+
+    .form > span {
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .container-image {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    img {
+        width: 100%;
+    }
+
 }

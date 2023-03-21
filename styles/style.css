@@ -99,6 +99,12 @@ button:hover {
 
     main {
         flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .container p {
+        width: 50%;
+        font-size: 1em;
     }
 
     .container-text {
@@ -106,20 +112,19 @@ button:hover {
     }
 
     h2 {
-        font-size: 1em;
+        font-size: .3em;
+        width: 100%;
+        margin-top: 0;
     }
 
     .form {
-        /* margin: 0 auto; */
-        width: 100%;
+        margin: 0 auto;
         height: 12em;
-        justify-content: center;
-        align-items: center;
 
     }
 
     input {
-        width: 50%;
+        width: 150%;
         margin-left: -0.5em;
     }
 
@@ -128,10 +133,13 @@ button:hover {
     }
 
     .container-image {
-        width: 8%;
+        width: 100%;
         /* margin: auto; */
         align-self: center;
 
     }
 
+    img {
+        width: 100%;
+    }
 }
