@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/style-all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Marketing Criativo</h1>
+        <nav>
+            <a href="../index.html">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <button class="button">
+                <a href="#">Já tem uma conta?</a>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div class="container-login">
+            <h1 class="container-title">Bem vindo</h1>
+            <p>Insira seu dados para ter acesso aos demais conteúdos.</p>
+            <div class="form">
+                <label for="nome">Nome
+                    <input type="text" id="nome" placeholder="usuario" required>
+                </label>
+                <label for="senha">Senha
+                    <input type="password" id="senha" placeholder="senha" required>
+                </label>
+                <span>
+                    <label for="lembrar" id="l-lembrar">
+                        <input type="checkbox" id="lembrar">
+                        Lembrar de mim
+                    </label>
+                    <a href="#">Esqueci a senha</a>
+                </span>
+                <input type="button" value="Enviar">
+            </div>
+        </div>
+        <div class="container-image">
+            <img src="../components/images/img.png" alt="">
+        </div>
+    </main>
+</body>
+</html>
