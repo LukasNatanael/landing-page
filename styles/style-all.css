@@ -14,8 +14,9 @@ body {
     font-family: 'poppinsregular';
     margin: auto;
     max-width: 1900px;
-    min-width: 500px;
+    min-width: 300px;
     padding: 0.7em;
+    height: 100vh;
 }
 
 
@@ -72,6 +73,7 @@ header > nav {
 @media screen and (max-width:768px) {
     header {
         flex-direction: column;
+        font-size: 0.8em;
     }
 
     .title {
@@ -91,12 +93,10 @@ header > nav {
     }
 
     .form {
-        /* margin: 0 auto; */
-        width: 100%;
-        height: 12em;
+        display: flex;
         justify-content: center;
         align-items: center;
-
+        margin: 0em;
     }
 
     input {

@@ -100,15 +100,18 @@ button:hover {
     main {
         flex-direction: column-reverse;
         width: 100%;
+        padding: 0;
+
     }
 
     .container p {
         width: 50%;
         font-size: 1em;
     }
-
+    
     .container-text {
         width: 100%;
+        padding: .5em;
     }
 
     h2 {
@@ -125,11 +128,11 @@ button:hover {
 
     input {
         width: 150%;
-        margin-left: -0.5em;
+        /* margin-left: -0.5em; */
     }
 
     .form button {
-        width: 50%;
+        width: 80%;
     }
 
     .container-image {
